@@ -1,0 +1,31 @@
+//
+// Template: tf_addressbook
+//
+variable "mytag" {}
+variable "service" {}
+variable "vpc_id" {}
+variable "source_cidr_block" {}
+variable "security_group_name" {}
+variable "backend_protocol" {}
+variable "elb_name" {}
+variable "backend_port" {}
+variable "health_check_target" {}
+variable "user_data" {}
+variable "ami_id" {}
+variable "asg_minimum_number_of_instances" {}
+variable "asg_number_of_instances" {}
+variable "health_check_grace_period" {}
+variable "lc_name" {}
+variable "key_name" {}
+variable "ami_id" {}
+variable "instance_type" {}
+variable "asg_name" {}
+variable "health_check_type" {}
+variable "elb_is_internal" {}
+variable "az1" {}
+variable "az2" {}
+variable "subnet_az1" {}
+variable "subnet_az2" {}
+variable "aws_access_key" {}
+variable "aws_secret_key" {}
+variable "aws_region" {}
